@@ -50,6 +50,32 @@
     }
 }
 
+/* 
+@media screen and (max-width: 1075){
+    .main .bg-c{
+        background-size: cover;
+    }
+    .main .aln{
+        width: 100%;
+        margin-left: 0;
+    }
+    .main .aln .sp_page{
+        transform: translateX(0rem);
+    }
+    .main .aln .sp_page .c1{
+        margin-left: 0;
+    }
+    .main .aln .sp_page .c1 .heading{
+        margin-left: 0;
+    }
+    .main .aln .sp_page .c1 .heading h1 {
+
+        /* color: #e3181b; */
+/* } */
+
+/* } */
+
+
 
 @media screen and (max-width: 1279px) {
 
@@ -183,8 +209,8 @@
         font-size: 12px;
     }
 
-    .main .mentor .slid .slid_r #slid_card #crd_clr {
-        margin-left: 4rem;
+    .main .mentor .slid .slid_r #slid_card {
+        margin-left: 5rem;
     }
 
     .main .mentor .slid .slid_r #crd_clr {
@@ -197,8 +223,6 @@
         padding-top: 10px;
         width: 50%;
         height: 50%;
-        margin-left: 0rem;
-
     }
 
     .main .reviews .head5 .title h3 {
@@ -266,42 +290,28 @@
         height: 80vh;
     }
 
-    .main .suggest .suggest_box .s_b .txt {
-        font-size: 12px;
-    }
-
     #f_br {
         padding-top: 30px;
     }
 }
 
-@media screen and (max-width: 1100px) {
-    .algn .cont {
-        margin-top: 10%;
-    }
-}
-
-@media screen and (max-width: 992px) {
-
-    .algn .cont {
-        margin-top: 15%;
-    }
-
-    .main .aln .sp_page .c1 button {
+@media screen and (max-width: 991px){
+    
+    .main .aln .sp_page .c1 button{
         width: 50%;
         font-size: 13px;
     }
 
-    .main .algn .cont .crd .crd_f {
+    .main .algn .cont .crd .crd_f{
         display: flex;
         flex-wrap: nowrap;
     }
 
-    .main .algn .cont .crd .crd_a {
+    .main .algn .cont .crd .crd_a{
         width: 45%;
     }
 
-    .main .algn .cont .crd .crd_a .sd-1 {
+    .main .algn .cont .crd .crd_a .sd-1{
         width: 0.5%;
     }
 
@@ -309,123 +319,77 @@
         width: 15%;
     }
 
-    .main .algn .cont .crd .crd_a .sd-2 .t_head {
+    .main .algn .cont .crd .crd_a .sd-2 .t_head{
         font-size: 13px;
-    }
+    }   
 
-    .main .algn .cont .crd .crd_a .sd-2 .txt {
+    .main .algn .cont .crd .crd_a .sd-2 .txt{
         font-size: 8px;
     }
 
-    .main .algn .cont .crd .crd_a .sd-2 button {
+    .main .algn .cont .crd .crd_a .sd-2 button{
         width: 85%;
         padding: 1px 2px;
         font-size: 8px;
         font-weight: 200;
     }
 
-    #prev {
+    #prev{
         margin-left: 2rem;
     }
 
-    .main .slid {
-        visibility: hidden;
-    }
-
-    .main .mentor {
-        height: 80vh
-    }
-
-    .main .res_slid {
-        display: block;
-        margin-top: 1rem;
-        transform: translateY(-28rem);
-        width: 100%;
-    }
-
-    .main .res_slid .cards_ment {
-        border: 1px solid black;
-        border-radius: 2rem;
-        background: #EEEE;
-        max-width: 50%;
-        margin-left: 25%;
-    }
-
-    .main .res_slid .cards_ment .ment_img {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .main .res_slid .cards_ment .ment_img img {
-        height: 14rem;
-    }
-
-    .main .res_slid .cards_ment .ment_cnt {
-        text-align: center;
-        margin-top: 3rem;
-    }
-
-    .main .res_slid .cards_ment .ment_cnt p {
-        background: lightgray;
-    }
-
-    #prev {
-        font-size: 2rem;
-        background: grey;
-    }
-
-    .main .reviews .feed .feed_slide #feed_outbox {
+    .main .reviews .feed .feed_slide #feed_outbox{
         margin-left: 4rem;
     }
 
-    .main #feed_inbox {
+    .main #feed_inbox{
         transform: translateX(-0.8rem);
         height: 32vh;
         width: 88%;
     }
 
-    .main #feed_inbox img {
+    .main #feed_inbox img{
         width: 180px;
         height: 180px;
     }
 
-    .main .suggest .suggest_box h5 {
+    .main .suggest .suggest_box h5{
         font-size: 16px;
     }
 
-    .main .suggest .suggest_box .s_b summary {
+    .main .suggest .suggest_box .s_b summary{
         font-size: 12px;
     }
 
-    .main .suggest .suggest_box .s_b .txt {
-        font-size: 12px;
+    .main .suggest .suggest_box .s_b .txt{
+        font-size: 12px ;
     }
 
-    .main footer .f_bg #fc_1 .cont {
+    .main footer .f_bg #fc_1 .cont{
         margin-top: 3px;
         transform: translateX(-4rem);
     }
 
-    .main footer .f_bg #fc_1 .cont h6 {
+    .main footer .f_bg #fc_1 .cont h6{
         font-size: 15px;
     }
 
-    .main footer .f_bg #fc_1 .cont .fc_a img {
+    .main footer .f_bg #fc_1 .cont .fc_a img{
         width: 35px;
         height: 50px;
     }
 
-    .main footer .f_bg #fc_1 .cont .fc_a .txt div:nth-child(1) {
+    .main footer .f_bg #fc_1 .cont .fc_a .txt div:nth-child(1){
         font-size: 10px;
         font-weight: 200;
     }
 
-    .main footer .f_bg #fc_1 .cont .fc_a .txt div:nth-child(2) {
+    .main footer .f_bg #fc_1 .cont .fc_a .txt div:nth-child(2){
         font-size: 12px;
         font-weight: 300;
     }
 
-    .main footer .f_bg #fc_2 .cont2 .fc_h2 div:nth-child(1) {
+    .main footer .f_bg #fc_2 .cont2 .fc_h2 div:nth-child(1){
         font-size: 30px;
     }
 
@@ -433,11 +397,11 @@
         font-size: 12px;
     }
 
-    .main footer .f_bg #fc_2 .cont2 .fc_h21 h3 {
+    .main footer .f_bg #fc_2 .cont2 .fc_h21 h3{
         font-size: 20px;
     }
 
-    .main footer .f_bg #fc_2 .cont2 .s_media img {
+    .main footer .f_bg #fc_2 .cont2 .s_media img{
         width: 25px;
         height: 25px;
     }
@@ -446,57 +410,51 @@
         font-size: 15px;
     }
 
-    .main footer .f_bg #fc_3 .cont3 li {
+    .main footer .f_bg #fc_3 .cont3 li{
         font-size: 10px;
     }
 
-    #f_br {
+    #f_br{
         margin-top: 2rem;
     }
 
 }
 
 @media screen and (max-width: 894px) {
-
+    
     .main .align2 .achieve {
         margin-left: 8%;
         gap: 2rem;
     }
 
+    .main .mentor .slid .slid_r{
+        width: 100%;
+    }
 }
 
+
 @media screen and (max-width: 792px) {
-    .main .aln {
-        margin-top: 5%;
+    
+    
+    .main{
+        /* overflow-x: hidden; */
+        /* margin: auto; */
+        /* width: 100%; */
     }
 
-    .algn .cont {
-        margin-top: 25%;
+    .main .bg-c{
+        height: 130vh;
     }
 
-    .main .bg-c {
-        height: 129vh;
-        background-position-x: -8px;
-        background-size: 274%;
+    .main .aln .sp_page{
+        transform: translate(0px , 0px);
     }
 
-    .main .bg-c {
-        height: 120vh;
-    }
-
-    .main .aln .sp_page {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 70vh;
-        transform: translate(-3rem, -1rem);
-    }
-
-    .main .aln .sp_page .row {
+    .main .aln .sp_page .row{
         flex-direction: column;
     }
 
-    .main .aln .sp_page .c1 {
+    .main .aln .sp_page .c1{
         margin-top: 8rem;
         width: 100%;
         height: 50%;
@@ -506,63 +464,85 @@
         width: 100%;
     }
 
-    .main .aln .sp_page .c2 .image {
-        margin-left: -3rem;
+    .main .aln .sp_page .c2 .image{
+        margin-left: 2rem;
         transform: translate(8rem, 8rem);
     }
 
-    .main .aln .sp_page .c2 .image img {
+    .main .aln .sp_page .c2 .image img{
         width: 32rem;
         height: 22rem;
-    }
+    } 
 
-    .main .algn {
+    .main .algn{
         margin-top: 10rem;
     }
 
-    .main .algn .cont .crd .container {
+    .main .algn .cont .crd .container{
         max-width: 100%;
     }
 
-    .main .algn .cont .crd .crd_f {
+    .main .algn .cont .crd .crd_f{
         width: 100%;
         margin-left: 0.2rem;
     }
 
-    .main .align2 {
+    .main .align2{
         width: 100%;
     }
 
-    .main .align2 .achieve {
+    .main .align2 .achieve{
         margin-left: 0%;
         gap: 1rem;
     }
 
-    .main .align2 .achieve .box {
+    .main .align2 .achieve .box{
         margin-left: 2%;
     }
 
-    .main .res_slid {
-        transform: translateY(-35rem);
+    .main .mentor .slid .slid_r {
+        width: 100%;
+    }
+
+    .main .mentor .slid .slid_r #slid_card{
+        margin-left: 5.5rem;
+    }
+
+    .main .mentor .slid .slid_r #slid_card .container{
+        max-width: 100%;
+    }
+
+    .main .mentor .slid .slid_r #slid_card .row{
+        flex-wrap: nowrap;   
+    }
+
+    .main .mentor .slid .slid_r #slid_card #crd_clr{
+        width: 14rem;
+        height: 20rem;
+    }
+
+    .main .mentor .slid .slid_r #crd_clr #crd_img{
+        width: 100px;
+        height: 150px;
     }
 
     .main .reviews .feed .feed_slide {
         width: 100%;
     }
 
-    .main .reviews .feed .feed_slide #feed_outbox {
+    .main .reviews .feed .feed_slide #feed_outbox{
         margin-left: 2rem;
     }
 
-    .main #feed_inbox #feed_r .f_txt {
+    .main #feed_inbox #feed_r .f_txt{
         font-size: 8px;
     }
 
-    .main .suggest .suggest_box .s_b summary {
+    .main .suggest .suggest_box .s_b summary{
         font-size: 11px;
     }
 
-    .main .suggest .suggest_box .s_b summary i {
+    .main .suggest .suggest_box .s_b summary i{
         font-size: 8px;
     }
 
@@ -570,44 +550,25 @@
         margin-left: 2rem;
     }
 
-    .main footer .f_bg #fc_1 .cont .fc_a img {
+    .main footer .f_bg #fc_1 .cont .fc_a img{
         width: 30px;
         height: 45px;
     }
 
-    .container {
+    .container{
         max-width: 100%;
     }
-
-    .main .mentor .slid {
-        height: 100vh;
-    }
-
-    .main .mentor .slid .row {
-        margin-left: -5rem;
-        gap: 30px;
-    }
-
 }
+
 
 @media screen and (max-width: 692px) {
 
-    .main {
+    .main{
         width: 100%;
     }
 
-    .container {
+    .container{
         max-width: 100%;
-    }
-
-    .main .bg-c {
-        height: 129vh;
-        background-position-x: -8px;
-        background-size: 350%;
-    }
-
-    .main .aln .sp_page .c1 {
-        margin-left: 2rem;
     }
 
     .main .aln .sp_page .c2 .image img {
@@ -616,105 +577,109 @@
         transform: translateX(-7rem);
     }
 
-    .main .algn .cont {
-        margin-top: 14rem;
-    }
-
-    .main .algn .cont .title h3 {
+    .main .algn .cont .title h3{
         font-size: 18px;
     }
 
-    .main .algn .cont .sub p {
+    .main .algn .cont .sub p{
         font-size: 12px;
     }
 
-    .main .algn .cont .crd .crd_a .row {
+    .main .algn .cont .crd .crd_a .row{
         flex-wrap: nowrap;
         flex-direction: column;
     }
-
-    .main .algn .cont .crd .crd_a .sd-1 {
+    
+    .main .algn .cont .crd .crd_a .sd-1{
         height: 10vh;
         width: 100%;
     }
 
-    .main .algn .cont .crd .crd_a .sd-1 img {
+    .main .algn .cont .crd .crd_a .sd-1 img{
         margin-top: 4.5rem;
         width: 3.5rem;
         height: 3.5rem;
     }
 
-    .main .algn .cont .crd .crd_a .sd-2 {
+    .main .algn .cont .crd .crd_a .sd-2{
         margin-top: 4.2rem;
         height: 15vh;
         width: 100%;
     }
 
-    .main .algn .cont .crd .crd_a .sd-2 button {
+    .main .algn .cont .crd .crd_a .sd-2 button{
         font-size: 10px;
         width: 55%;
     }
 
-    .main .algn .cont .buton button {
+    .main .algn .cont .buton button{
         font-size: 10px;
     }
 
-    .main .align2 .head2 .title1 h2 {
+    .main .align2 .head2 .title1 h2{
         font-size: 18px;
     }
 
-    .main .align2 .head2 .txt2 {
+    .main .align2 .head2 .txt2{
         font-size: 12px;
     }
 
-    .main .align2 .achieve {
+    .main .align2 .achieve{
         margin-left: 2rem;
         margin-top: 2rem;
         flex-wrap: wrap;
     }
 
-    .main .res_slid .cards_ment {
-        max-width: 26rem;
-        height: 13rem;
-        margin-left: 7rem;
+    .main .mentor .head4 .title4 h2{
+        font-size: 18px;
     }
 
-    .main .res_slid .cards_ment .ment_img img {
-        margin-top: 1rem;
-        margin-left: 2rem;
-        height: 9rem;
+    .main .mentor .head4 .txt4{
+        font-size: 11px;
     }
 
-    .main .res_slid .cards_ment .ment_cnt {
-        margin-left: -2rem;
-        margin-top: 2rem;
+    #crd_cnt h4{
+        font-size: 18px;
+    }
+
+    #crd_cnt p{
+        font-size: 14px;
+    }    
+
+    #crd_cnt .flx span{
+        font-size: 12px;
+    } 
+
+    #crd_cnt .flx h6{
+        margin-top: 0.5rem;
+        font-size: 14px;
     }
 
     .feed .feed_slide #feed_outbox {
         margin-left: 4rem;
     }
 
-    .main .reviews .r_bottom .txt {
+    .main .reviews .r_bottom .txt{
         font-size: 13px;
     }
 
-    .main .reviews .r_bottom button:nth-child(1) {
+    .main .reviews .r_bottom button:nth-child(1){
         font-size: 10px;
     }
 
-    .main .reviews .r_bottom button:nth-child(2) {
+    .main .reviews .r_bottom button:nth-child(2){
         font-size: 10px;
     }
 
-    .main .suggest .head6 .title6 h2 {
+    .main .suggest .head6 .title6 h2{
         font-size: 15px;
     }
 
-    .main .suggest .head6 .txt6 {
+    .main .suggest .head6 .txt6{
         font-size: 10px;
     }
 
-    .main .suggest .suggest_box h5 {
+    .main .suggest .suggest_box h5{
         font-size: 15px;
     }
 
@@ -722,11 +687,11 @@
         font-size: 13px;
     }
 
-    .main .suggest .suggest_box .s_b .txt {
+    .main .suggest .suggest_box .s_b .txt{
         font-size: 12px;
     }
 
-    .main .suggest .suggest_box #s_r {
+    .main .suggest .suggest_box #s_r{
         display: none;
     }
 
@@ -735,29 +700,29 @@
         height: 30px;
     }
 
-    .main footer .f_bg #fc_1 .cont .fc_a .txt div:nth-child(2) {
+    .main footer .f_bg #fc_1 .cont .fc_a .txt div:nth-child(2){
         font-size: 10px;
     }
 
-    .main footer .f_bg #fc_2 .cont2 .fc_h2 div:nth-child(1) {
+    .main footer .f_bg #fc_2 .cont2 .fc_h2 div:nth-child(1){
         font-size: 20px;
     }
 
-    .main footer .f_bg #fc_2 .cont2 .fc_h2 div:nth-child(2) {
+    .main footer .f_bg #fc_2 .cont2 .fc_h2 div:nth-child(2){
         font-size: 10px;
         font-weight: 400;
     }
 
-    .main footer .f_bg #fc_2 .cont2 .fc_h21 div:nth-child(1) {
+    .main footer .f_bg #fc_2 .cont2 .fc_h21 div:nth-child(1){
         font-size: 12px;
     }
 
-    .main footer .f_bg #fc_2 .cont2 .s_media img {
+    .main footer .f_bg #fc_2 .cont2 .s_media img{
         width: 20px;
         height: 20px;
     }
 
-    .main footer .f_bg #fc_2 .cont2 .fc_h21 h3 {
+    .main footer .f_bg #fc_2 .cont2 .fc_h21 h3{
         font-size: 14px;
     }
 
@@ -769,44 +734,46 @@
         font-size: 10px;
     }
 
-    .main footer .f_bg .copy div {
+    .main footer .f_bg .copy div{
         font-size: 10px;
     }
 
 }
 
 @media screen and (max-width: 592px) {
-
-    .main .aln {
-        width: 100%;
-        margin-left: 1%;
+    
+    .main{
+        /* width: 100%; */
+        /* background: #c50b0e; */
+        /* margin: auto; */
+        /* max-width: 100%; */
     }
 
     .main .aln .sp_page .c1 {
         margin-top: 10rem;
     }
 
-    .main .aln .sp_page .c2 .image {
+    .main .aln .sp_page .c2 .image{
         margin-left: 1rem;
         width: 88%;
-        transform: translate(10rem, 8.5rem);
+        transform: translate(5rem, 8.5rem);
     }
 
 
-    .main .algn .cont .crd .crd_f {
+    .main .algn .cont .crd .crd_f{
         gap: 15px;
     }
 
-    .main .algn .cont .crd .container {
+    .main .algn .cont .crd .container{
         max-width: 98%;
     }
 
-    .main .algn .cont .sub p {
+    .main .algn .cont .sub p{
         max-width: 50%;
         margin-left: 25%;
     }
 
-    .main .algn .cont .crd .crd_a .sd-2 button {
+    .main .algn .cont .crd .crd_a .sd-2 button{
         width: 85%;
     }
 
@@ -814,30 +781,72 @@
         margin-left: 1rem;
     }
 
-    .main .res_slid .cards_ment {
-        max-width: 25rem;
-        margin-left: 5rem;
-    }
-
-    .main .reviews .head5 .sub-cont {
+    .main .mentor .head4 .txt4{
         max-width: 50%;
-        margin-left: 25%;
+        margin-left: 24%;
     }
 
-    .main #feed_inbox #feed_r .f_head {
+    .main .mentor .slid{
+        transform: translate(-13px, 0px);
+    }
+
+    .main .mentor .slid .slid_r #slid_card .row{
+        margin-left: -8%;   
+    }
+
+    #prev{
+        font-size: 14px;
+    }
+
+    .main .mentor .slid .slid_r #slid_card #crd_clr {
+        width: 12rem;
+        height: 18rem;
+    }
+
+    #crd_cnt h4{
+        font-size: 14px;
+    }
+
+    #crd_cnt p {
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    #crd_cnt .flx span{
         font-size: 12px;
     }
 
-    .main .reviews .r_bottom .txt {
+    #crd_cnt .flx h6{
+        font-size: 13px;
+    }
+
+    .main .mentor .slid{
+        height: 75vh;
+    }
+
+    .main .mentor{
+        padding-bottom: 0rem;
+    }
+
+    .main .reviews .head5 .sub-cont{
+        max-width: 50%;
+        margin-left: 25%;
+    }    
+
+    .main #feed_inbox #feed_r .f_head{
+        font-size: 12px;
+    } 
+
+    .main .reviews .r_bottom .txt{
         font-size: 10px;
     }
 
-    .main .suggest .head6 .txt6 {
+    .main .suggest .head6 .txt6{
         max-width: 50%;
         margin-left: 25%;
     }
 
-    .main footer {
+    .main footer{
         min-height: 100vh;
     }
 
@@ -845,12 +854,11 @@
         min-height: 100vh;
     }
 
-
-    .main footer .f_bg .container {
+    .main footer .f_bg .container{
         max-width: 100%;
     }
 
-    .main footer .f_bg .container .row {
+    .main footer .f_bg .container .row{
         display: flex;
         flex-direction: column;
     }
@@ -860,19 +868,19 @@
         width: 50%;
     }
 
-    .main footer .f_bg #fc_2 {
+    .main footer .f_bg #fc_2{
         width: 100%;
     }
 
-    .main footer .f_bg #fc_2 .cont2 {
+    .main footer .f_bg #fc_2 .cont2{
         margin-top: 16rem;
     }
 
-    .main footer .f_bg #fc_2 .cont2 div:nth-child(1) {
+    .main footer .f_bg #fc_2 .cont2 div:nth-child(1){
         padding-bottom: 0rem;
     }
 
-    .main footer .f_bg #fc_3 {
+    .main footer .f_bg #fc_2{
         display: flex;
         flex-direction: column;
     }
@@ -881,70 +889,42 @@
         padding-top: 0rem;
     }
 
-    .main footer .f_bg #fc_2 .cont2 .s_media {
+    .main footer .f_bg #fc_2 .cont2 .s_media{
         padding-top: 0.5rem;
     }
 
-    .main footer .f_bg #fc_3 {
-        width: 34%;
+    .main footer .f_bg #fc_3{
+        width: 50%;
         transform: translate(20rem, 0rem);
     }
 
-    #f_br {
+    #f_br{
         margin-top: 28rem;
     }
 
-    .main footer .f_bg .copy {
+    .main footer .f_bg .copy{
         margin-top: 0.2rem;
     }
 
-
-}
-
-@media screen and (max-width:550px) {
-    .main .bg-c {
-        height: 129vh;
-        background-position-x: -8px;
-        background-size: 390%;
-    }
 }
 
 @media screen and (max-width:492px) {
-
-    .main {
+    
+    .main{
         width: 100%;
     }
 
-    .main .bg-c {
-        height: 130vh;
-        background-position-x: -8px;
-        background-size: 490%;
-    }
-
-    .algn .cont {
-        margin-top: 50%;
-    }
-
-    .main .aln .sp_page .container {
-        padding-top: 20%;
-    }
-
-    .main .aln .sp_page .c2 .image {
+    .main .aln .sp_page .c2 .image img{
         width: 19rem;
         height: 15rem;
-        transform: translate(-8rem, 12rem);
-    }
-
-    .main .aln .sp_page .c2 .image img {
-        transform: translate(11rem, 1rem);
     }
 
     .main .align2 .ad_bg {
         height: 90vh;
     }
+    
 
-
-    .main .align2 .head2 .txt2 {
+    .main .align2 .head2 .txt2{
         margin-left: 25%;
         max-width: 50%;
     }
@@ -953,164 +933,96 @@
         display: none;
     }
 
-    .main .algn .cont {
+    .main .algn .cont{
         width: 100%;
     }
 
-    .main .align2 .head2 .title1 h2 {
+    .main .align2 .head2 .title1 h2{
         font-size: 16px;
     }
 
-    .main .algn .cont .crd .crd_a {
+    .main .algn .cont .crd .crd_a{
         margin: auto;
         width: 35%;
         min-height: 32vh;
     }
 
-    .main .algn .cont .crd .crd_f {
+    .main .algn .cont .buton button{
+
+    }
+
+    .main .algn .cont .crd .crd_f{
         flex-direction: column;
         justify-content: center;
-    }
+    } 
 
-    .main .align2 .achieve {
+    .main .align2 .achieve{
         margin-left: 4rem;
     }
 
-    .main .mentor {
-        height: 100vh
+    .main .mentor{
+        margin-top: 2rem;
     }
 
-    .main .res_slid .cards_ment {
-        max-width: 17rem;
-        height: 23rem;
-        margin-left: 7rem;
+    .main .mentor .slid .slid_r #slid_card{
+        margin-left: 3.4rem;
     }
 
-    .main .res_slid .cards_ment .row {
-        display: flex;
-        flex-direction: column;
-    }
+    .main .reviews .feed .feed_slide #feed_outbox{
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }   
 
-    .main .res_slid .cards_ment .ment_img img {
-        margin-top: 1rem;
-        margin-left: 4rem;
-        height: 9rem;
-    }
+    /* .main .mentor .slid{
+        grid-template-columns: 1fr;
+    } */
 
-    .main .res_slid .cards_ment .ment_cnt {
-        margin-left: 0.5rem;
-        margin-top: 12rem;
-    }
-
-    .main .reviews .r_bottom .txt {
+    .main .reviews .r_bottom .txt{
         padding-bottom: 15px;
     }
 
-    .main .suggest .suggest_box h5 {
+    .main .suggest .suggest_box h5{
         font-size: 14px;
     }
 
-    .main .suggest .suggest_box .s_b summary {
+    .main .suggest .suggest_box .s_b summary{
         font-size: 12px;
     }
 
-    #cr_ {
-        margin-top: 14rem;
+    .main footer .f_bg #fc_1 .cont{
+
     }
 
-    .main footer .f_bg #fc_3 .cont3 {
+    .main footer .f_bg #fc_3 .cont3{
         margin-left: 0rem;
     }
 
-    .main footer .f_bg #fc_2 .cont2 {
+    .main footer .f_bg #fc_2 .cont2{
         margin-top: 18rem;
     }
 
-    .main footer .f_bg #fc_3 {
-        width: 34%;
-        transform: translate(15rem, 0rem);
-    }
-
-    .main .reviews {
-        height: 140vh;
-    }
-
-    .main .reviews .row {
-        margin-left: 20px;
-    }
-
-    .main #feed_inbox {
-        margin-bottom: 20px;
-    }
-
-    .main .reviews .row #feed_cnt {
-        padding-top: 42px;
-    }
-
-    .main .reviews .col {
-        display: contents;
-    }
-
-    .main .reviews .r_bottom {
-        margin-top: 48%;
-    }
-
-}
-
-@media screen and (max-width: 415px) {
-    
-    .main .align2 {
-        height: 110vh;
-    }
-
-    .main .align2 .achieve {
-        margin-left: 7rem;
-    }
 }
 
 @media screen and (max-width: 396px) {
-
-    .main .bg-c {
-        height: 126vh;
-        background-position-x: -8px;
-        background-size: 580%;
-    }
-
-    .main .aln .sp_page .c2 .image img {
-        width: 17rem;
-        height: 13rem;
-    }
-
-    .main .aln .sp_page {
-        margin-left: 2%;
-    }
-
-    .main .aln .sp_page .c2 .image {
-        transform: translate(-10rem, 10rem);
-    }
-
-    .algn .cont {
-        margin-top: 56%;
-    }
-
-    .main .aln .sp_page .c1 .heading h1 {
+    
+    .main .aln .sp_page .c1 .heading h1{
         font-size: 18px;
     }
 
-    .main .aln .sp_page .c1 .contents h5 {
+    .main .aln .sp_page .c1 .contents h5{
         font-size: 12px;
     }
 
-    .main .aln .sp_page .c1 button {
+    .main .aln .sp_page .c1 button{
         font-size: 10px;
     }
 
-    .main .algn .cont .crd .crd_a {
+    .main .algn .cont .crd .crd_a{
         width: 55%;
         height: 55%;
     }
 
-    .main .algn .cont .crd .crd_a .sd-2 .txt {
+    .main .algn .cont .crd .crd_a .sd-2 .txt{
         font-size: 10px;
     }
 
@@ -1118,111 +1030,73 @@
         height: 94vh;
     }
 
-    .main .align2 .achieve {
+    .main .align2 .achieve{
         margin-top: 1rem;
         margin-left: 1rem;
     }
 
-    .main .align2 .achieve .box {
+    .main .align2 .achieve .box{        
         height: 30%;
     }
 
-    .main .res_slid .cards_ment {
-        max-width: 15rem;
-        height: 23rem;
-        margin-left: 5rem;
+    .main .reviews{
+        height: 100vh;
     }
 
-    .main .res_slid .cards_ment .ment_img img {
-        margin-top: 1rem;
-        margin-left: 3rem;
-        height: 9rem;
-    }
-
-    .main .reviews .r_bottom .txt {
+    .main .reviews .r_bottom .txt{
         margin-left: 1rem;
     }
 
-    .main .reviews .r_bottom .btns {
+    .main .reviews .r_bottom .btns{
         display: flex;
         flex-direction: column;
         gap: 1rem;
-        margin-left: 5rem;
+        margin-left: 8rem;
     }
 
-    .main .reviews .r_bottom button:nth-child(1) {
+    .main .reviews .r_bottom button:nth-child(1){
         width: 75%;
     }
 
-    .main .reviews .r_bottom button:nth-child(2) {
+    .main .reviews .r_bottom button:nth-child(2){
         width: 75%;
     }
 
-    .main footer .f_bc {
-        min-height: 160vh;
+    .main footer .f_bc{
+        min-height: 150vh;
     }
 
-    .main footer .f_bg .container .row {
+    .main footer .f_bg .container .row{
         justify-content: center;
     }
 
-    .main footer .f_bg #fc_1 .cont {
+    .main footer .f_bg #fc_1 .cont{
         width: 100%;
     }
 
     .main footer .f_bg #fc_2 {
-        transform: translate(-6rem, 12rem);
-    }
-
-    .main footer .f_bg #fc_3 .cont3 {
-        margin-top: 1rem;
+        transform: translate(-6rem, 17rem);
     }
 
     .main footer .f_bg #fc_3 {
-        width: 100%;
-        transform: translate(2rem, 17rem);
+        transform: translate(2rem, 20rem);
     }
 
-    .main footer .f_bg #fc_3 .cont3 .fc_h3 {
+    .main footer .f_bg #fc_3 .cont3 .fc_h3{
         padding-bottom: 1rem;
     }
 
     #f_br {
-        margin-top: 46rem;
+        margin-top: 45rem;
     }
 
-    .main footer .f_bg .copy div {
+    .main footer .f_bg .copy div{
         font-size: 8px;
     }
-
-    .main .reviews {
-        height: 145vh;
-    }
-
-    .main .reviews .row {
-        margin-left: 20px;
-    }
-
-    .main #feed_inbox {
-        margin-bottom: 20px;
-    }
-
-    .main .reviews .row #feed_cnt {
-        padding-top: 42px;
-    }
-
-    .main .reviews .r_bottom {
-        margin-top: 56%;
-    }
-
-    .main footer .f_bg #fc_2 .cont2 {
-        margin-top: 22rem;
-    }
-
 }
 
 @media screen and (max-width: 340px) {
-
+    
     .main .aln .sp_page .c1 {
         margin-top: 10rem;
     }
@@ -1232,7 +1106,7 @@
         height: 13rem;
     }
 
-    .main .align2 .achieve {
+    .main .align2 .achieve{
         margin-left: 5rem;
         margin-top: 2rem;
         gap: 3rem;
@@ -1246,16 +1120,12 @@
         width: 110%;
     }
 
-    .main .reviews .r_bottom .btns {
+    .main .reviews .r_bottom .btns{
         margin-left: 3rem;
     }
 
-    .main .reviews .row #feed_cnt {
-        padding-top: 0px;
-    }
-
     .main footer .f_bg #fc_2 {
-        transform: translate(-4rem, 12rem);
+        transform: translate(-4rem, 17rem);
     }
 
 }

@@ -44,7 +44,7 @@ body {
 .main .bg-c {
     width: 100%;
     height: 98vh;
-    /* margin-top: 5rem; */
+    margin-top: 5rem;
     background: url('./img/header-bg.jpg');
     background-repeat: no-repeat;
     position: absolute;
@@ -55,18 +55,13 @@ body {
 
 
 .header {
+    /* position:absolute; */
     width: 100%;
+    height: 8rem;
+    /* top:0; 	 */
     background-color: lightblue;
+    /* padding-top:10px;	 */
 }
-
-/* .nav1{
-    width: 100%;
-    height: 100vh;
-} */
-
-/* ---------------nav----- */
-
-/* ------------nav----- */
 
 /* .header-top{
 	position:absolute;
@@ -300,7 +295,6 @@ body {
 
 } */
 
-
 /* 
 #drp{
     
@@ -334,7 +328,7 @@ body {
 }
 
 .main .aln .sp_page .c1 {
-    margin-top: 25px;
+    margin-top: 15px;
     margin-left: 25px;
     height: 60vh;
     display: flex;
@@ -390,6 +384,11 @@ body {
     color: #ffff;
 }
 
+
+.main .aln .sp_page .c2 {
+    /* margin-top: 1rem; */
+}
+
 .main .aln .sp_page .c2 .image {
     display: flex;
     justify-content: center;
@@ -403,10 +402,6 @@ body {
 }
 
 /* english course */
-
-.main .algn .cont {
-    margin-top: 4rem;
-}
 
 .main .algn .cont .title {
     text-align: center;
@@ -554,6 +549,7 @@ body {
     color: red;
 }
 
+
 /* advertise */
 
 .main .align2 {
@@ -655,7 +651,6 @@ body {
     transform: translateY(-20px);
 }
 
-/* mentors */
 
 .main .mentor {
     margin-top: 4rem;
@@ -689,20 +684,28 @@ body {
 }
 
 .main .mentor .slid {
+    /* background: #3C4048; */
     width: 100%;
     height: 78vh;
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(50rem, 20rem)); */
     margin-top: 1rem;
     display: flex;
     justify-content: center;
 }
 
+
+
 .main .mentor .slid .slid_r {
-    width: 100%;
+    /* background: #16213E; */
+        
+    width: 60%;
+    /* height: 100%; */
 }
 
 .main .mentor .slid .slid_r #slid_card {
     margin-top: 0.5rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .main .mentor .slid .slid_r #crd_clr {
@@ -711,16 +714,18 @@ body {
     border-radius: 2rem;
 }
 
-.main .mentor .slid .slid_r #slid_card #crd_clr {
+.main .mentor .slid .slid_r #slid_card #crd_clr{
     width: 20rem;
     height: 25rem;
-    margin-left: 7rem;
+    margin-left: 2.5rem;
 }
 
-.main .mentor .slid .slid_r #crd_clr #crd_img {
+.main .mentor .slid .slid_r #crd_clr #crd_img{
     width: 180px;
     margin-left: 4rem;
+    /* height: 150px; */
 }
+
 
 #crd_cnt {
     transform: translateY(-10px);
@@ -765,14 +770,6 @@ body {
     color: white;
     border-radius: 1rem;
 }
-
-/* slid-2 */
-
-.main .res_slid {
-    display: none;
-}
-
-/* reviews */
 
 .main .reviews {
     width: 100%;
